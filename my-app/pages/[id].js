@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
 import {getAllIds, getData} from '../lib/data';
+import Link from 'next/link';
 
 
 
@@ -29,17 +30,41 @@ export async function getStaticPaths() {
 export default function Entry({itemData}){
 return (
   <Layout>
-  <article className="card col-6">
+  <article className="card col-4">
+    <h2>{itemData.name}</h2>
     <div className="card-body">
-      <h5 className="card-title"> {itemData.name} </h5>
+      
+      <h4 className >Skates for:</h4>
+      {itemData.related?
+      itemData.related.map(
+        ({owner_id, company})=>(
+      <h3>{company}</h3>
+      )
+      ) : null}
+      <h5 className="card-title"> Stats: </h5>
       <h6 className="card-subtitle mb-2 text-muted"></h6>
       <p className="cart-text">Air: {itemData.air}</p>
       <p className="cart-text">Speed: {itemData.speed}</p>
       <p className="cart-text">Balance: {itemData.balance}</p>
-      <a href={'mailto' + itemData.email} className="card-link">{itemData.email}</a>
       
-      </div>
+       </div>
   </article>
+  <article className="list-group col-6">
+      <div className="card-body">
+      {itemData.related?
+        <h2>Teammates</h2> 
+        : null}
+        {itemData.related?
+          itemData.related.map (
+            ({id, name})=> (
+              <Link key={id} href={`/${id}`}>
+        <a className="list-group-item list-group-item-action">{name}</a>
+        </Link>
+            )
+          )
+        : null}
+        </div>
+      </article>
 </Layout>
   );
 }

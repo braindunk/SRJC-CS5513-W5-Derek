@@ -37,13 +37,7 @@
     "id": 5
   }
   ,
-  { 
-    "name": "Jamie Thomas",
-    "air": 4,
-  "speed": 8,
-  "balance": 5,
-    "id": 6
-  },
+ 
     { 
     "name": "Geoff Rowley",
     "air": 6,

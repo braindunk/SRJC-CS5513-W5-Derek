@@ -1,6 +1,15 @@
 [
-  {
-    "id": 1,
+ 
+  {  "id": 1,
+    "owner_id": 2,
+    "related_ids": [4,7],
+    "company":"Flip",
+    "durability":8,
+    "pop": 7,
+    "cost": 60
+  },
+   {
+    "id": 2,
     "owner_id": 1,
     "related_ids": [1,9],
     "company":"Birdhouse",
@@ -8,14 +17,6 @@
     "pop": 5,
     "cost": 50
     
-  },
-  {  "id": 2,
-    "owner_id": 2,
-    "related_ids": [2,7],
-    "company":"Flip",
-    "durability":8,
-    "pop": 7,
-    "cost": 60
   },
   {  "id": 3,
     "owner_id": 3,
@@ -48,7 +49,7 @@
   },
   {
      "id": 6,
-    "owner_id": 5,
+    "owner_id": 6,
     "related_ids": [10],
     "company": "Girl",
     "durability": 6,

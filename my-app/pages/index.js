@@ -23,23 +23,16 @@ export default function Home({allData}){
     <div className="card col-md-6">
     <h1>Choose Your Skater!</h1>
       <div className="list-group">
-        {allData.map(({id,name}) => (
+        {allData ? 
+          allData.map(({id,name}) => (
       <Link key={id} href={`/${id}`}>
         <a className="list-group-item list-group-item-action">{name}</a>
         </Link>
-        ))}
+        ))
+        : null}
         </div>
     </div>
-    <div className="card col-md-6">
-    <h1>Choose Your Skateboard!</h1>
-      <div className="list-group">
-        {allData.map(({id,name}) => (
-      <Link key={id} href={`/${id}`}>
-        <a className="list-group-item list-group-item-action">{name}</a>
-        </Link>
-        ))}
-        </div>
-    </div>
+    
   </div>
   </div>
     </Layout>

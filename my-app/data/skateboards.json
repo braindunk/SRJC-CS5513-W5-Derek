@@ -11,7 +11,7 @@
    {
     "id": 2,
     "owner_id": 1,
-    "related_ids": [1,9],
+    "related_ids": [9],
     "company":"Birdhouse",
     "durability":6,
     "pop": 5,

@@ -78,11 +78,12 @@ export async function getData(idRequested){
      objectReturned.related = objectMatch3;
     
     }
-}else {
-    objectReturned = {};
 }
   return objectReturned;
   }
+  else {
+    objectReturned = {};
+}
     console.log(objectReturned);
 
 }

@@ -1,0 +1,77 @@
+[
+  { 
+    "name": "Tony Hawk",
+    "air": 8,
+    "speed": 5,
+    "balance": 6,
+    "id": 1
+    
+  },
+  { 
+    "name": "Rune Glifberg",
+    "air": 9,
+  "speed": 6,
+  "balance": 3,
+    "id": 2
+  },
+  { 
+    "name": "Chad Muska",
+    "air": 3,
+  "speed": 7,
+  "balance": 8,
+    "id": 3
+  }
+  ,
+  { 
+    "name": "Bob Burnquist",
+    "air": 9,
+  "speed": 6,
+  "balance": 3,
+    "id": 4
+  },
+  { 
+    "name": "Elissa Steamer",
+    "air": 2,
+  "speed": 7,
+  "balance": 7,
+    "id": 5
+  }
+  ,
+  { 
+    "name": "Jamie Thomas",
+    "air": 4,
+  "speed": 8,
+  "balance": 5,
+    "id": 6
+  },
+    { 
+    "name": "Geoff Rowley",
+    "air": 6,
+  "speed": 4,
+  "balance": 8,
+    "id": 7
+  },
+    { 
+    "name": "Kareem Campbell",
+    "air": 7,
+  "speed": 5,
+  "balance": 6,
+    "id": 8
+  },
+  
+    { 
+    "name": "Bucky Lasek",
+    "air": 7,
+  "speed": 6,
+  "balance": 3,
+    "id": 9
+  },
+  
+    { 
+    "name": "Eric Koston",
+    "air": 4,
+  "speed": 5,
+  "balance": 7,
+    "id": 10
+  }
+]

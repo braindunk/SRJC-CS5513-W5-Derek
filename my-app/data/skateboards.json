@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "owner_id": 1,
+    "related_ids": [1,9],
+    "company":"Birdhouse",
+    "durability":6,
+    "pop": 5,
+    "cost": 50
+    
+  },
+  {  "id": 2,
+    "owner_id": 2,
+    "related_ids": [2,7],
+    "company":"Flip",
+    "durability":8,
+    "pop": 7,
+    "cost": 60
+  },
+  {  "id": 3,
+    "owner_id": 3,
+    "related_ids": [5],
+    "company":"Toy Machine",
+    "durability": 9,
+    "pop": 7,
+    "cost": 65
+    
+  },
+  {
+    "id": 4,
+    "owner_id": 4,
+    "related_ids": [],
+    "company": "Blank",
+    "durability": 4,
+    "pop": 5,
+    "cost": 30
+    
+  },
+  {
+     "id": 5,
+    "owner_id": 5,
+    "related_ids": [3,8],
+    "company": "Shorty's",
+    "durability": 6,
+    "pop": 8,
+    "cost": 45 
+   
+  },
+  {
+     "id": 6,
+    "owner_id": 5,
+    "related_ids": [10],
+    "company": "Girl",
+    "durability": 6,
+    "pop": 8,
+    "cost": 45 
+   
+  }
+]

@@ -37,7 +37,7 @@ return (
   <article className="card col-4">
     <h2>{itemData.name}</h2>
     <div className="box">
-      <Image src={itemData.profile} width={200}
+      <Image src={itemData.profile} alt="Picture of the Skater" width={200}
         height={200}  priority
 />
       </div>

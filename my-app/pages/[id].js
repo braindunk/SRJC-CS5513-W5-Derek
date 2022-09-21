@@ -47,7 +47,7 @@ return (
       {itemData.related?
       itemData.related.map(
         ({owner_id, company})=>(
-      <h3>{company}</h3>
+      <h3>{itemData.company}</h3>
       )
       ) : null}
       <h5 className="card-title"> Stats: </h5>

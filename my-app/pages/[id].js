@@ -43,13 +43,7 @@ return (
       </div>
     <div className="card-body">
       
-      <h4 className >Skates for:</h4>
-      {itemData.related?
-      itemData.related.map(
-        ({owner_id, company})=>(
-      <h3>{itemData.company}</h3>
-      )
-      ) : null}
+      
       <h5 className="card-title"> Stats: </h5>
       <h6 className="card-subtitle mb-2 text-muted"></h6>
       <p className="cart-text">Air: {itemData.air}</p>

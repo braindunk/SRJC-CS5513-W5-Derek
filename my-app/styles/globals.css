@@ -26,6 +26,25 @@ a {
   }
   body {
     color: black;
-    background: white;
+    
   }
+}
+h1{
+  color: yellow;
+   -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  
+}
+.container{
+  margin: 0;
+  
+}
+.card{
+  background-color: black;
+  
+}
+.list-group-item, p, h3, h4{
+  background-color: gray;
+  color: yellow;
+  
 }

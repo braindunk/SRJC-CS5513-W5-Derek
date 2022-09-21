@@ -2,6 +2,10 @@ import Head from 'next/head';
 import Layout from '../components/layout';
 import {getAllIds, getData} from '../lib/data';
 import Link from 'next/link';
+import Image from 'next/image';
+
+
+
 
 
 
@@ -32,6 +36,11 @@ return (
   <Layout>
   <article className="card col-4">
     <h2>{itemData.name}</h2>
+    <div className="box">
+      <Image src={itemData.profile} width={200}
+        height={200}  priority
+/>
+      </div>
     <div className="card-body">
       
       <h4 className >Skates for:</h4>

@@ -20,16 +20,21 @@ export default function Home({allData}){
     <Layout home>
    <div className="container">
       <div className="row text-center">
-    <div className="card col-md-6">
+    <div className="card col-md-12">
+       
     <h1>Choose Your Skater!</h1>
       <div className="list-group">
+        
         {allData ? 
           allData.map(({id,name}) => (
       <Link key={id} href={`/${id}`}>
+        
         <a className="list-group-item list-group-item-action">{name}</a>
+      
         </Link>
         ))
         : null}
+       
         </div>
     </div>
     

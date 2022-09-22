@@ -1,7 +1,7 @@
 [
   { 
     "name": "Tony Hawk",
-    "profile": /profilepics/tonyhawkprofile.png",
+    "profile": "/profilepics/tonyhawkprofile.png",
     "air": 8,
     "speed": 5,
     "balance": 6,

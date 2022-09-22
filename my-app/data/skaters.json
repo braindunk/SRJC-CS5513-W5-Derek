@@ -1,7 +1,7 @@
 [
   { 
     "name": "Tony Hawk",
-    "profile": "/public/profilepics/tonyhawkprofile.png",
+    "profile": /profilepics/tonyhawkprofile.png",
     "air": 8,
     "speed": 5,
     "balance": 6,
@@ -10,7 +10,7 @@
   },
   { 
     "name": "Rune Glifberg",
-    "profile": "/public/profilepics/runeglifbergprofile.png",
+    "profile": "/profilepics/runeglifbergprofile.png",
     "air": 9,
   "speed": 6,
   "balance": 3,
@@ -18,7 +18,7 @@
   },
   { 
     "name": "Chad Muska",
-      "profile": "/public/profilepics/chadmuskaprofile.png",
+      "profile": "/profilepics/chadmuskaprofile.png",
     "air": 3,
   "speed": 7,
   "balance": 8,
@@ -27,7 +27,7 @@
   ,
   { 
     "name": "Bob Burnquist",
-    "profile": "/public/profilepics/bobburnquistprofile.png",
+    "profile": "/profilepics/bobburnquistprofile.png",
     "air": 9,
   "speed": 6,
   "balance": 3,
@@ -35,7 +35,7 @@
   },
   { 
     "name": "Elissa Steamer",
-    "profile": "/public/profilepics/elissasteamerprofile.png",
+    "profile": "/profilepics/elissasteamerprofile.png",
     "air": 2,
   "speed": 7,
   "balance": 7,
@@ -45,7 +45,7 @@
  
     { 
     "name": "Geoff Rowley",
-      "profile": "/public/profilepics/geoffrowleyprofile.png",
+      "profile": "/profilepics/geoffrowleyprofile.png",
     "air": 6,
   "speed": 4,
   "balance": 8,
@@ -53,7 +53,7 @@
   },
     { 
     "name": "Kareem Campbell",
-      "profile": "/public/profilepics/kareemcampbellprofile.png",
+      "profile": "/profilepics/kareemcampbellprofile.png",
     "air": 7,
   "speed": 5,
   "balance": 6,
@@ -62,7 +62,7 @@
   
     { 
     "name": "Bucky Lasek",
-        "profile": "/public/profilepics/buckylasekprofile.png",
+        "profile": "/profilepics/buckylasekprofile.png",
     "air": 7,
   "speed": 6,
   "balance": 3,
@@ -71,7 +71,7 @@
   
     { 
     "name": "Eric Koston",
-      "profile": "/public/profilepics/erickostonprofile.png",
+      "profile": "/profilepics/erickostonprofile.png",
     "air": 4,
   "speed": 5,
   "balance": 7,
